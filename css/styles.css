@@ -35,6 +35,10 @@ ul {
     color: #2196F3
 }
 
+.header-link:focus {
+    color: #2196F3
+}
+
 .header-link {
     font-family: 'Roboto';
     font-weight: 500;
@@ -122,12 +126,18 @@ ul {
 /* Button */
 .navig-button {
     background-color: #F5F4FA;
+    color: #212121;
 }
 
-.navig-button:hover{
+.navig-button:hover {
     color: #FFFFFF;
     background-color: #2196F3;
 }
+
+.navig-button:focus {
+    color: #2196F3
+}
+
 /* Main */
 
 .main-title {
@@ -145,6 +155,7 @@ ul {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 /* Foter */
 .fotter {
     background-color: #2F303A;
@@ -173,6 +184,9 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.fotter-logo:focus, .fotter-text:focus{
+    color: #2196F3
 }
 
 .fotter-mail,
