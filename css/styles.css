@@ -1,3 +1,11 @@
+:root {
+    --accent-color: #2196f3;
+    --normal-color: #ffffff;
+    --primary-color: #212121;
+    --minor-color: #757575;
+    --secondary-color: #f5f4fa;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -27,6 +35,14 @@ ul {
 }
 
 .header-logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.71;
+    /* identical to box height */
+    letter-spacing: 0.03em;
     color: black;
 }
 
@@ -43,15 +59,14 @@ ul {
 }
 
 .header-link:hover,
-.header-link:focus,
-{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #2196F3;
+.header-link:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3
 }
 
 .header-mail,
@@ -192,12 +207,13 @@ color: #2196F3;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 16.2;
+    line-height: 1.62;
     /* identical to box height, or 162% */
     color: #212121;
 }
 
 .portfolio-button {
+    cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
 }
